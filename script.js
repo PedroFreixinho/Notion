@@ -2,6 +2,7 @@
 const display = document.getElementById('display');
 const lembreteEl = document.getElementById('lembrete');
 const addBtn = document.getElementById('addBtn');
+const resetBtn = document.getElementById('resetBtn'); 
 
 // Carrega o contador do localStorage ou inicia em 0
 let count = parseInt(localStorage.getItem('diaCount')) || 0; // localStorage sem expiração :contentReference[oaicite:9]{index=9};
@@ -18,6 +19,13 @@ function updateUI() {
     lembreteEl.textContent = '';
   }
 }
+
+resetBtn.addEventListener('click', () => {
+  localStorage.removeItem('diaCount');
+  count = 0;
+  localStorage.setItem('diaCount', '0'); 
+  updateUI();
+});
 
 // Ao clicar, incrementa +1, salva e atualiza
 addBtn.addEventListener('click', () => {
