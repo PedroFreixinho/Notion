@@ -43,6 +43,23 @@ body {
   transition: transform 0.1s;
 }
 
+#resetBtn {
+  margin-top: 1.5rem;        /* espaço acima */
+  margin-left: 0.5rem;       /* separação lateral do outro botão */
+  padding: 0.75rem 1.5rem;   
+  font-size: 1rem;
+  background: #4DAB9A;       /* verde Notion */
+  color: #2F3438;            /* texto escuro para contraste */
+  border: none;
+  border-radius: 0.5rem;     /* cantos quadrados */ :contentReference[oaicite:2]{index=2}
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+#resetBtn:active {
+  transform: scale(0.95);
+}
+
 #addBtn:active {
   transform: scale(0.95);
 }
