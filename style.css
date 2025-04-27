@@ -1,4 +1,3 @@
-/* Fonte arredondada e fator de conforto */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 body {
@@ -6,38 +5,40 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #fdf6f0; /* pastel suave */ 
+  background: #2F3438; /* Notion Dark Mode main window */ :contentReference[oaicite:6]{index=6}
   margin: 0;
 }
 
 .widget {
   text-align: center;
-  background: #fff1f3; /* blush pastel */ 
+  background: #2F3438; /* Igual ao body para integrar */ :contentReference[oaicite:7]{index=7}
   padding: 2rem;
-  border-radius: 2rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 0.5rem; /* Canto mais quadrado */ :contentReference[oaicite:8]{index=8}
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   font-family: 'Poppins', sans-serif;
+  width: 300px; /* Largura fixa para forma mais quadrada */
 }
 
 #display {
-  font-size: 3rem;
-  color: #d65a6a;
+  font-size: 2.5rem;
+  color: #4DAB9A; /* Texto em verde Notion */ :contentReference[oaicite:9]{index=9}
   margin: 0;
 }
 
 #lembrete {
   font-size: 1.25rem;
-  color: #ff758f;
-  height: 1.5em; /* mantém espaço mesmo sem texto */
+  color: #4DAB9A; /* Mantém texto de lembrete em verde */ :contentReference[oaicite:10]{index=10}
+  height: 1.5em;
 }
 
 #addBtn {
   margin-top: 1.5rem;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
-  background: #ff9fb8;
+  background: #4DAB9A; /* Botão verde */ :contentReference[oaicite:11]{index=11}
+  color: #2F3438; /* Texto escuro para contraste */
   border: none;
-  border-radius: 1rem;
+  border-radius: 0.5rem; /* Cantos quadrados */ :contentReference[oaicite:12]{index=12}
   cursor: pointer;
   transition: transform 0.1s;
 }
