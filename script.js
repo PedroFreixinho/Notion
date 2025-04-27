@@ -13,7 +13,7 @@ function updateUI() {
   
   // Verifica múltiplos de 30 e exibe lembrete
   if (count > 0 && count % 30 === 0) { // operador % retorna resto da divisão :contentReference[oaicite:10]{index=10};
-    lembreteEl.textContent = `🔔 Parabéns! Você completou ${count/30} mês${count/30 > 1 ? 'es' : ''}!`;
+    lembreteEl.textContent = `🔔 Parabéns! Você completou ${count/30} mes${count/30 > 1 ? 'es' : ''}!`;
   } else {
     lembreteEl.textContent = '';
   }
