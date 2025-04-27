@@ -10,11 +10,11 @@ body {
 }
 
 .widget {
-  width: 100px;
+  width: 200px;
   max-height: 400px;        
   text-align: center;
   background: #191919;
-  padding: 1rem;
+  padding: 0.9rem;
   border-radius: 0.5rem;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   font-family: 'Poppins', sans-serif;
@@ -35,7 +35,7 @@ body {
 #addBtn {
   margin-top: 1.5rem;
   padding: 0.75rem 1.5rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   background: #4DAB9A; /* Botão verde */ :contentReference[oaicite:11]{index=11}
   color: #2F3438; /* Texto escuro para contraste */
   border: none;
@@ -48,7 +48,7 @@ body {
   margin-top: 1.5rem;        /* espaço acima */
   margin-left: 0.5rem;       /* separação lateral do outro botão */
   padding: 0.75rem 1.5rem;   
-  font-size: 1rem;
+  font-size: 0.9rem;
   background: #4DAB9A;       /* verde Notion */
   color: #2F3438;            /* texto escuro para contraste */
   border: none;
