@@ -1,0 +1,47 @@
+/* Fonte arredondada e fator de conforto */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #fdf6f0; /* pastel suave */ 
+  margin: 0;
+}
+
+.widget {
+  text-align: center;
+  background: #fff1f3; /* blush pastel */ 
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+#display {
+  font-size: 3rem;
+  color: #d65a6a;
+  margin: 0;
+}
+
+#lembrete {
+  font-size: 1.25rem;
+  color: #ff758f;
+  height: 1.5em; /* mantém espaço mesmo sem texto */
+}
+
+#addBtn {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background: #ff9fb8;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+#addBtn:active {
+  transform: scale(0.95);
+}
